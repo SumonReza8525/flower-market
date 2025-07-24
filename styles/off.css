@@ -1,0 +1,106 @@
+.off-container {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.scene-1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.253),
+      rgba(0, 0, 0, 0.253)
+    ),
+    url("../images/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scene-2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.253),
+      rgba(0, 0, 0, 0.253)
+    ),
+    url("../images/deal-ana.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scene-3 {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.253),
+      rgba(0, 0, 0, 0.253)
+    ),
+    url("../images/deal-zabo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.off-container-para {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+.off-container-para-zabo {
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+}
+.shop-now {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.shop-now:hover {
+  color: rgb(119, 252, 185);
+  text-decoration: none;
+}
+.scene-1:hover,
+.scene-2:hover,
+.scene-3:hover {
+  box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.771);
+}
+@media screen and (max-width: 507px) {
+  .off-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    height: 700px;
+  }
+  .scene-1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+  }
+  .scene-2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .scene-3 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 30px;
+  }
+  .off-container-para-zabo {
+    font-size: 30px;
+  }
+}

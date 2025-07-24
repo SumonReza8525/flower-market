@@ -7,7 +7,7 @@
   margin-top: 100px;
   text-align: center;
   max-width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 0;
 }
 .plants-section-title {
   font-size: 35px;
@@ -66,6 +66,7 @@
   width: 100%;
   color: white;
   font-weight: 600;
+  cursor: pointer;
 }
 .btn:hover {
   background: linear-gradient(135deg, #f06806 0%, #010610 100%);

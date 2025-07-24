@@ -50,7 +50,8 @@
   color: rgba(0, 0, 0, 0.517);
 }
 .navbar ul .cart {
-  font-weight: 100;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width: 507px) {
   .navbar {
@@ -60,6 +61,13 @@
     margin: 0 auto;
     margin: 20px;
     font-size: 14px;
+  }
+  .navbar ul {
+    align-items: flex-end;
+  }
+  .navbar ul .cart {
+    font-size: 20px;
+    padding-top: 10px;
   }
   .navbar ul .hide {
     display: none;

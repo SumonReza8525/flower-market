@@ -71,3 +71,12 @@
   background: linear-gradient(135deg, #f06806 0%, #010610 100%);
   font-weight: 900;
 }
+/* Responsive for mobile */
+@media screen and (max-width: 507px) {
+  .plants-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+  }
+}

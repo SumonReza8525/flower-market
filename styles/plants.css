@@ -1,0 +1,73 @@
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.plants-section {
+  margin-top: 100px;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+.plants-section-title {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.plants-section-title span {
+  color: #e95a08;
+}
+.plants-section-subtitle {
+  color: rgba(0, 0, 0, 0.507);
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.plants-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  row-gap: 40px;
+  margin-top: 50px;
+  padding: 0;
+  margin: 0;
+}
+.plant {
+  display: block;
+}
+.plant:hover {
+  box-shadow: 2px 6px 6px gray;
+}
+.plant:hover .plant-name {
+  color: brown;
+}
+.plant img {
+  width: 100%;
+  display: block;
+}
+.plant-name {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.plant-price {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+}
+.btn {
+  padding: 15px 30px;
+  /* font-size: 20px; */
+  border: none;
+  background-color: #e95a08;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+}
+.btn:hover {
+  background: linear-gradient(135deg, #f06806 0%, #010610 100%);
+  font-weight: 900;
+}

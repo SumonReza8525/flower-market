@@ -1,5 +1,17 @@
 .deals {
   text-align: center;
   margin: 50px auto;
-  border: 5px solid red;
+}
+.deals .deals-title {
+  font-size: 35px;
+  font-weight: 800;
+}
+.deals span {
+  color: #e95a08;
+}
+.deals-subtitle {
+  max-width: 650px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 2px 8px;
 }

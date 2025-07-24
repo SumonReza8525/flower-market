@@ -29,7 +29,9 @@
   padding: 10px;
   font-size: 20px;
 }
-
+.badge {
+  width: 200px;
+}
 .badge .star {
   width: 200px;
   margin: 0;
@@ -37,6 +39,7 @@
   position: relative;
   left: 420px;
   top: 100px;
+  display: block;
 }
 
 @media screen and (max-width: 507px) {

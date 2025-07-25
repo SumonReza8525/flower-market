@@ -92,10 +92,7 @@
 .hero-subtitle {
   margin-top: 20px;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.482);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  line-height: 25px;
+  color: #4b3f3f;
 }
 .hero-right img {
   display: block;

@@ -81,4 +81,8 @@
     column-gap: 15px;
     padding: 0 8px;
   }
+  .plants-section-title,
+  .plants-section-subtitle {
+    padding: 0 8px;
+  }
 }

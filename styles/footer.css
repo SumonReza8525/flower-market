@@ -47,6 +47,7 @@
 @media screen and (max-width: 507px) {
   .footer-container {
     grid-template-columns: 1fr;
+    margin: 0 auto;
   }
   .middle-part {
     grid-template-columns: 1fr;

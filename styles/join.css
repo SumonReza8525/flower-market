@@ -3,8 +3,8 @@
   height: 500px;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.149),
-      rgba(0, 0, 0, 0.142)
+      rgba(0, 0, 0, 0.054),
+      rgba(0, 0, 0, 0.058)
     ),
     url("../images/news-letter-bg.png");
   background-repeat: no-repeat;
@@ -29,25 +29,29 @@ input[type="email"] {
   color: rgba(0, 0, 0, 0.52);
   border: none;
 }
+::placeholder {
+  font-size: 18px;
+}
 .subscribe-btn {
-  padding: 15px 30px;
+  padding: 13px 30px 15px 30px;
   background: #e95a08;
   color: white;
   font-weight: 600;
   border: none;
   margin-left: -10px;
   cursor: pointer;
+  font-size: 16px;
 }
 @media screen and (max-width: 507px) {
   #join-section {
     width: 100vw;
-    height: 300px;
+    height: 250px;
     margin-bottom: 50px;
   }
   input[type="email"] {
     width: 200px;
     font-size: 16px;
-    padding: 10px 30px;
+    padding: 10px 35px;
   }
   .subscribe-btn {
     font-size: 16px;

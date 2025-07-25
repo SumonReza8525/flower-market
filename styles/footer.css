@@ -10,6 +10,7 @@
   color: rgba(0, 0, 0, 0.574);
   padding-bottom: 130px;
   padding-top: 80px;
+  background: linear-gradient(130deg, #dabaa35a, #e8c7b1 60%);
 }
 .middle-part {
   display: grid;
@@ -20,10 +21,12 @@
 }
 .middle-part li {
   list-style: none;
+  margin-bottom: 8px;
+  transition: color 1s ease forwards;
 }
 .middle-part li:hover {
   cursor: pointer;
-  color: #f06806;
+  color: black;
 }
 .footer-right {
   display: flex;
@@ -31,7 +34,7 @@
 }
 .footer-right img {
   width: 35px;
-  height: 35px;
+  height: 30px;
   padding-right: 3px;
   margin-right: 6px;
 }
